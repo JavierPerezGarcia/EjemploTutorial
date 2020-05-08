@@ -9,7 +9,7 @@ public class CambioMoneda
 {
      public static void main(String[] args) 
      {
-        Banco caja1 = new Banco(100, "EURO");
+        Banco caja1 = new Banco(150, "EURO");
         Banco caja2 = new Banco(200, "LIBRA");
         caja1.cambio(((float)0.5));
         caja1.visualiza();
