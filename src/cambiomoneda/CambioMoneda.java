@@ -13,11 +13,11 @@ public class CambioMoneda
         Banco caja2 = new Banco(100, "LIBRA");
         caja1.cambio(((float)0.5));
         caja1.visualiza();
-        caja1.Suma(50, "LIBRA");
+        caja1.Suma(30, "LIBRA");
         caja1.visualiza();
         caja2.cambio(((float)0.5));
         caja2.visualiza();
-        caja2.Suma(50, "EURO");
+        caja2.Suma(30, "EURO");
         caja2.visualiza();
 
      }
